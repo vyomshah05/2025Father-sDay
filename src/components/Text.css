@@ -1,0 +1,16 @@
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .text-overlay img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    filter:drop-shadow(0 0 10px black)
+  }
